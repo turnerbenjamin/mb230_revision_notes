@@ -3,7 +3,7 @@
 - Section 3: completed all
 - Section 4: completed all
 - Section 5: completed all
-- Section 6:
+- Section 6: up to 5 - deploy social messaging channels
 - Section 7:
 - Section 8: completed all
 - Section 9:

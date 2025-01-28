@@ -2,7 +2,6 @@
 
 ## General
 
-
 ## Chat Channels
 
 We can deploy a live chat widget using a chat channel. This functionality allows
@@ -131,6 +130,8 @@ the startProactiveChatMethod.
 We also define a context provide which is used to provide context values for the
 page: Here, time on page and the page URL.
 
+I think the context values and their types are defined in the workstream.
+
 
 ## Deploy a Chat Widget in a Portal
 
@@ -145,6 +146,134 @@ conditional rules in our snippet, e.g.:
     <script ... />
 {%endif%}
 ```
+## Voice Channel
+
+### Requirements
+
+We need to:
+- Provision the voice channel (omnichannel installation config)
+- Ensure that the correct licencing is in place
+
+### Manage Phone Numbers
+
+Omnicahnnel uses Azure Communication Services for calling and text capabilities.
+We will need to purchas a phone number and call plan to use this service.
+
+Phone numbers are added from the Accounts section in Admin Center -> Channels
+
+When adding the first phone number. A resource needs to be created which 
+specifies:
+- The subscription to use
+- The resource group where Azure Communication Service resources will be stored
+
+For subsequent numbers we do not need to specify these details. 
+
+We then specify the number type:
+- Toll Free (sms and voice)
+- Geographic (voice only)
+
+Depending on the number type:
+
+- specify area code/geographic location
+- optionally, enable receive and/or make calls
+- optionally, enable send or send and receive sms
+
+Also specify area code/geographic location for toll free and geographic types 
+respectively.
+
+It is possible to edit and release phone numbers, however, the number must
+first be removed from the workstream it is attached to.
+
+### Overflow Handling
+
+The queue may receive too many incoming calls at once. We can set up overflow
+handling rules in the queue to help manage this.
+
+### Voice Channels
+
+We can define a voice channel, as with chat we can specify various behaviours
+specific to this channel, such as:
+
+- Customer wait time: Notifications about position in queu and average wait time
+- Channel operating hours
+- Transcription and recording options
+- Custom automated messages
+- Enable call transfer to external agents
+- Consults with team users
+
+We can also define voice profiles used of voice bots and automated messages.
+
+### Voice Workstream
+
+It is difficult to find information here, but it looks like a workstream can
+only be associated with one phone number.
+
+It is certainly the case that a phone number may only be associated with a 
+single workstream.
+
+### Voice Queues
+
+The default assignment method in the default voice queue is apparantly 
+round robin.
+
+However, in the trial, the default voice assignment options are:
+- Highest capacity
+- Advance round robin
+- Least active (default)
+
+## SMS Channel
+
+The first thing to note, is like all channels sms has some peculiarities:
+
+- The maximum chars for text messages is 1,600
+- Customer Service will try to match an incoming message to an account based on
+the mobile phone field in the customer record
+
+### Requirements
+- SMS functionality must be enabled in the environment (omnichannel set-up)
+- An account and SMS number must be registered. The supported providers are:
+    - Azure Communication Services
+    - Twilio or Telesign account
+
+The last screen of the account set-up has a callback url. If using Twilio we
+need to add this url in our Twilio account for the phone number. 
+
+### Channels
+
+This is all very similar to other channels. We can set-up behaviours for the 
+channel:
+
+- Operating hours
+- Custom automated messages
+- Post-conversation surveys
+
+We can also set-up user features:
+- Customers can send file attachments
+- Agents can send file attachments
+
+### Workstreams
+
+This is fairly standard, but there is an additional option in the work
+distribution section:
+
+- Auto-close after inactivity: Default is 2 days before a conversation is closed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -4,9 +4,9 @@
 - Section 4: completed all
 - Section 5: completed all
 - Section 6: completed all
-- Section 7: current
+- Section 7: completed all
 - Section 8: completed all
-- Section 9:
+- Section 9: current
 - Section 10:
 - Section 11:
 

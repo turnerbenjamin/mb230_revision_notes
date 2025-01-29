@@ -7,6 +7,5 @@
 - Section 7: completed all
 - Section 8: completed all
 - Section 9: completed all
-- Section 10:
-- Section 11:
-
+- Section 10: completed all
+- Section 11: current

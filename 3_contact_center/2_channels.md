@@ -258,6 +258,146 @@ distribution section:
 
 - Auto-close after inactivity: Default is 2 days before a conversation is closed
 
+## Social Channels
+
+### Requirements
+
+- The channel must be enabled (Omnichannel set-up)
+- Customer Service Digital Messaging Add-On licence is required
+
+### Supported Channels
+
+- Facebook
+- LINE
+- Twitter/X
+- WhatsApp
+- WeChat
+
+### Accounts
+
+#### Facebook
+
+We need a:
+- Facebook page with Messenger enables
+- Facebook application
+- To add CS webhooks to the Facebook Appolication
+
+On the Customer Service side we need an App Id and App secret.
+
+Note, if attachments are not disabled, this will not prevent the user from 
+sending attachments, it will just prevent agents from receiving the file and an
+error will be thrown.
+
+#### LINE
+
+To set up a line account we need:
+
+- LINE handle and a LINE channel in the LINE developer console
+- Configure the CS webhook with the callback uri and verification token
+
+On the Customer Service side we need a Channel Id, secret and access token
+
+#### WhatsApp
+
+We need to integrate WhatsApp using Twilio. We will need:
+
+- A Twilio account, with a number connected to a WhatsApp business profile
+- The callback url should be added to the Twilio inbound url box
+
+On the Customer Service side, we will need the Account SID and auth token.
+
+### Channel Set-Up
+
+This is all standard.
+
+### WhatsApp Peculiarities
+
+Beyond integration through Twilio there are additional peculiarities with 
+WhatsApp:
+
+#### 24 Hour Rule
+ 
+Agents may send messages to customers within 24 hours of a message being 
+received. It appears that the time is reset everytime a new message is received.
+
+Messages sent in this timeframe are termed session messages.
+
+Outside of the session, agents may only send template messages. These are 
+messages send using preapproved templates. The user must also opt in to 
+receiving messages from the organisation.
+
+## Google Business Messages and Apple Message for Business 
+
+### Channels
+
+#### Google Business Messages
+
+- Register as a partner with Google messages
+- Create a sevice account to authenticate API calls
+- Set up an agent accociated with the channel
+- Add the CS webhook to the google account 
+
+#### Apple Messages for Business Account
+
+- Create an Apple messages for business account
+- Configure the callback url
+
+On the Customer Service side, 
+
+### Apple Messages for Business Additional Features
+
+We can take advantage of a number of additional features when using an Apple
+Messages for Business account:
+
+#### Rich Messages
+
+We can use rich messages, these allow us to use interactive content, such as
+providing a user with a list of options they may select from.
+
+This can be particularly useful when used in conjunction with Apple Pay as we
+can capture details necessary to process payments.
+
+Rich messages may be created from Admin Center -> Productivity -> Rich Messages
+
+These messages are channel specific.
+
+As with quick replies, we can define tags to help agents find these messages.
+
+The types of messages include:
+- Apple Pay
+- Authorisation
+- Forms
+- List Picker
+- Suggested respectively
+- Time Picker
+- Video rich link
+- Website Rich link
+- Custom JSON
+
+The designer mode used to create the message will depend on the type chosen.
+
+By default, rich messages are available throughout the org. If we associate a 
+message with one or more workstreams it will be limited to these.
+
+#### Apple Pay
+
+To use apple pay we need to define payment profiles. These contain the 
+information required to connect to the relevant Apple merchant store.
+
+Once created, we can add the payment profile to a channel.
+
+We can associate a rich message with a payment profile.
+
+
+
+
+
+
+
+
+
+
+
 
 
 

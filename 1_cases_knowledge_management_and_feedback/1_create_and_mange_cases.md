@@ -42,7 +42,7 @@ These are an optional feature allowing us to define what the status reason value
 can be changed to for each status reason. This can help users to select the
 correct transition.
 
-When we define these, we must ensure that there is at lease one path to an
+When we define these, we must ensure that there is at least one path to an
 inactive status for any active status.
 
 ## Queues

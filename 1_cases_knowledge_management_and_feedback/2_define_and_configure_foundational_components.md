@@ -167,8 +167,6 @@ Admin Center -> Insights -> Suggestions for Representatives
 As mentioned above, there are toggles to enable both similar case suggestions
 and knowledge article suggestions. There is also a Data Mapping Section.
 
-![Smart Assist Data Mapping Section](../images/smart-assist-data-mapping-section.png)
-
 #### Data Mapping
 
 In the data mapping, we can customise the fields used to make suggestions for

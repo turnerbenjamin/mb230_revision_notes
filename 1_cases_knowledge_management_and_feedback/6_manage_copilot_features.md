@@ -17,7 +17,7 @@ Copilot can be used to help agents with tasks such as:
 - Drafting chat responses
 - Summarising a case and conversation (Workspace only)
 
-### Configure Knowledge Services
+### Configure Knowledge Sources
 
 We can configure the sources that copilot uses for knowledge. We can select
 knowledge base to allow this to be used for the ask a question and draft an

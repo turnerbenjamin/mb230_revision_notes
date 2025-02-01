@@ -315,10 +315,3 @@ Admin Center -> Routing -> Set-Up Record Routing
 
 We can add the entity to the list and then select it to configure the intake
 rules. 
-
-
-
-
-
-
-

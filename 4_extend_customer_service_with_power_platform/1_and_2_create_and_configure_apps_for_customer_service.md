@@ -16,7 +16,7 @@ platform. There are 5 core products:
 ### Dataverse
 
 The Dataverse is a cloud-based, low-code, data service and app platform. It 
-connects to all other aspects of Power Platrform. Features include:
+connects to all other aspects of Power Platform. Features include:
 
 - Security: authentication uses MS Entra ID. Authentification may be configured
 down to the row and column level
@@ -55,8 +55,8 @@ if we want to:
 - Use and update data from other sources
 - Interact with data in fields on the model driven app form
 - Trigger Power Automated flows from buttons in the embeded canvas app
-- Perform complex logic not posible in modern driven app forms without coding
-- Create a wizared-like UI to guide the user through a complex set of decisions
+- Perform complex logic not posible in model-driven app forms without coding
+- Create a wizard-like UI to guide the user through a complex set of decisions
 based on data
 
 ## Customise Case Management

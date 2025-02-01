@@ -96,7 +96,7 @@ We can override this in a given SLA item to specify custom conditions.
   - If a default SLA exists this will apply
   - else no SLA will apply
 - Else
-  - The entitlement associated with the applicable entitlement will apply
+  - The SLA associated with the applicable entitlement will apply
 
 ### Adding an SLA Timer to a Form
 

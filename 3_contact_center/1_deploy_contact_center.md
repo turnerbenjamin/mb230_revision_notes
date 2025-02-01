@@ -70,7 +70,7 @@ We can also enable CoPilot features such as:
 
 The omni channel insights dashboard is split into two sections:
 
-- The insights dashboard: Contains inoformation about KPIs
+- The insights dashboard: Contains information about KPIs
 - Sentiment Analysis: Overview of KPIs and trends related to sentiment analysis
 
 #### Set-Up
@@ -93,15 +93,3 @@ insights and the dashboard Omnichannel sentiment analysis
 
 Custom fields will not show automatically within the Power BI model. We would 
 need to edit and extend the report to include these fields.
-
-
-
-
-## Configure Workstreams
-
-
-
-## Configure User Settings
-
-
-## Manage Capacity Profiles

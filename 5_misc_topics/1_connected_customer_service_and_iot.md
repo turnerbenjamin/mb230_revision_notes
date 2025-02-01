@@ -134,11 +134,4 @@ simplify the process.
 Since the command is JSON, we need to parse the json in Power Automate and then
 use the extracted properties to set fields in the Run a device command action.
 
-
-
-
-
-
-
-
-
+A command may be sent from an IoT alert or IoT device record

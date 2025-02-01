@@ -28,7 +28,7 @@ a personal dashboard from the dashboards grid.
 
 ### Dashboard Types
 
-#### 365 Dashboard
+#### Dynamics 365 Dashboard
 
 These are dashboards users may create from the dashboard grid. We can include
 simple components such as charts, lists, etc.
@@ -48,7 +48,7 @@ to Customer Service.
 
 These are most often used in Hub. There are:
 - Single stream dashboards
-- Multi-stream dashboards
+- Multi stream dashboards
 
 It is not possible to create personal interactive dashboards. These must be
 created within a solution using the classic solution explorer (apparently)
@@ -58,8 +58,3 @@ created within a solution using the classic solution explorer (apparently)
 Users can select Visualise View, for example, from the active cases grid to open
 a visualisation of that view. Any filters active in the view will be applied to
 the visualisation.
-
-
-
-
-

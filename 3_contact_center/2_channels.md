@@ -280,7 +280,7 @@ distribution section:
 We need a:
 - Facebook page with Messenger enables
 - Facebook application
-- To add CS webhooks to the Facebook Appolication
+- To add CS webhooks to the Facebook Application
 
 On the Customer Service side we need an App Id and App secret.
 
@@ -387,33 +387,3 @@ information required to connect to the relevant Apple merchant store.
 Once created, we can add the payment profile to a channel.
 
 We can associate a rich message with a payment profile.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

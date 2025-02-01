@@ -5,7 +5,7 @@
 Customer Voice is a survey tool used to capture and analize feedback. Reports 
 are enriched with graphics powered by Power BI.
 
-Data, including:
+All data, including:
 - surveys
 - questions
 - invitations

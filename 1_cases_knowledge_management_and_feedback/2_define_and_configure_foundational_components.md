@@ -1,6 +1,6 @@
 # Define and Configure Foundational Components
 
-## Implement Advanced Similarity rules - Akshara
+## Implement Advanced Similarity rules
 
 Without using smart assist. We can use the similar cases button from the Cases
 for Interactive Experience Form.
@@ -9,7 +9,7 @@ This will only work once we set-up advanced similarity rules. These can be set-
 up from Admin Center -> Case Settings -> Advanced Similarity Rules. it is very
 simple.
 
-## Implement record creation and update rules - Amy
+## Implement record creation and update rules
 
 We can create a rule with a name and an activity type to monitor. Optionally, we
 may also specify a queue to monitor to further filter activities received as an
@@ -30,7 +30,7 @@ if so, how we handle this.
 
 This can be really useful for reviewing activities and how they were handled.
 
-## Configure and modify the Case Resolution dialogue - Araz
+## Configure and modify the Case Resolution dialogue
 
 In essence we just need to:
 
@@ -38,7 +38,7 @@ In essence we just need to:
   dialogue to customisable
 - Edit the form for the Case Resolution Table in make.powerapps
 
-## Configure business process flows - Ben
+## Configure business process flows
 
 ### Configure Existing Flow
 
@@ -60,11 +60,11 @@ In essence we just need to:
 10. Save and publish
 11. Test in Hub
 
-## Configure and manage security roles and personas - Hamza
+## Configure and manage security roles and personas
 
 Too familiar with this to care
 
-## Configure enhanced case forms and views - Ian
+## Configure enhanced case forms and views
 
 These can be enabled from Admin Center -> Case Settings -> Enhanced Case
 Experience. In both cases, a configure link will take us to the form in
@@ -96,11 +96,11 @@ This is a full screen form, but as we populate the customer, a pane will
 automatically be opened to show customer information in a card with details and
 recent cases.
 
-## Configure the records displayed in the case timeline - Jonathan
+## Configure the records displayed in the case timeline
 
 Too familiar with this to care
 
-## Configure connectors with the timeline - Joseph
+## Configure connectors with the timeline
 
 This is used to allow developers to surface information like Dataverse table
 rows and external data sources as record entities within the

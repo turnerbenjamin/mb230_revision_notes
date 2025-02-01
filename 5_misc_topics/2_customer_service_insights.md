@@ -58,6 +58,3 @@ This shows various metrics related to knowlege search. It has sections on:
 
 - Search terms
 - Article usage
-
-
-

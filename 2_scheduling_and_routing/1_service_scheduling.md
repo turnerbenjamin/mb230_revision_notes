@@ -4,7 +4,6 @@
 
 Dynamics uses the Universal Resource Scheduling Solution from D365. 
 
-
 ## Services
 
 These represent services offered to users. It is responsible fo determining
@@ -105,7 +104,7 @@ It looks like a single bookable resource may be associated with multiple
 resource categories. 
 
 
-### Orgainisation Units
+### Organisation Units
 
 Organisational units are another means for grouping bookable resources. 
 
@@ -163,7 +162,7 @@ intervals, and the intervals being reset we get the following start times
 We can attach fulfillment preferences to resource requirements within a service.
 
 If we use time groups, we cannot specify a time for intervals begin. This will
-automatically be the start of the earliest interval.
+automatically be the start of the earliest time group.
 
 ## Booking
 
